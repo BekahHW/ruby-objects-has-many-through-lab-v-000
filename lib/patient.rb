@@ -1,5 +1,5 @@
 require "pry"
-def Patient
+class Patient
    binding.pry
   attr_accessor :name
  
