@@ -1,6 +1,6 @@
 require "pry"
 class Patient
-   binding.pry
+  # binding.pry
   attr_accessor :name
  
    @@all = []
