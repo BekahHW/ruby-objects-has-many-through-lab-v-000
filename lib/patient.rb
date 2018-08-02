@@ -7,7 +7,6 @@ class Patient
   
   def initialize(name)
     @name = name
-    
     @@all << self
   end
    
@@ -15,9 +14,8 @@ class Patient
     @@all
   end
   
-  
   def new_appointment(doctor, date)
-     
+     binding.pry
     Appointment.new(self, doctor, date)
   end
   
